@@ -1,0 +1,59 @@
+.column-primary {
+    width: 22%;
+}
+
+.below-h2 {
+	margin-left: 0!important;
+    margin-top: 10px!important;
+    width: fit-content;
+}
+
+.row-actions > span {
+    display: inline-block;
+	font-size: 0.9em;
+}
+
+thead .manage-column > div, tfoot .manage-column > div {
+	white-space: nowrap;
+    position: relative;
+	width: 100%;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.WPA_subscriptions th, .WPA_subscriptions td {
+    border-right: 1px solid #e8e8e8;
+}
+
+.WPA_subscriptions th:last-child, .WPA_subscriptions td:last-child {
+    border-right: none;
+}
+
+.sorting-indicator {
+    position: absolute;
+    bottom: 40%;
+    right: 10px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.sorting-indicator:before {
+    left: 0;
+}
+
+.wpa-sale{
+	color:#aa0000;
+}
+
+th.sortable a span:nth-child(1), th.sorted a span:nth-child(1) {
+    position: relative;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+@media screen and (max-width: 782px) {
+	.WPA_subscriptions .check-column {
+		border-right: none;
+	}	
+}
